@@ -5,7 +5,7 @@
 }
 
 :root {
-  --blue: #0D6EFD;
+  --blue: #0d6efd;
 }
 
 body {
@@ -54,7 +54,7 @@ body {
 }
 
 .nav__link.is-active::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: 0;
