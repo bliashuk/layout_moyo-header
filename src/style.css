@@ -5,7 +5,7 @@
 }
 
 :root {
-  --blue: #3d8aff;
+  --blue: #0D6EFD;
 }
 
 body {
@@ -17,10 +17,12 @@ body {
   display: flex;
   align-items: center;
   width: 100%;
+  padding: 0 32px;
 }
 
 .logo img {
   display: block;
+  height: 40px;
 }
 
 .nav__list {
@@ -29,17 +31,19 @@ body {
 }
 
 .nav__list li + li {
-  margin-left: 32px;
+  margin-left: 40px;
 }
 
 .nav__link {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 64px;
+
+  height: 80px;
   text-transform: uppercase;
   text-decoration: none;
-  color: #000;
+
+  color: black;
   position: relative;
 }
 
@@ -52,12 +56,12 @@ body {
 }
 
 .nav__link.is-active::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: 0;
 
   width: 100%;
-  height: 3px;
+  height: 2px;
   background-color: var(--blue);
 }
